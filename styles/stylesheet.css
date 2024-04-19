@@ -1,0 +1,237 @@
+.body{
+    background-color: #ECEADF;
+    margin: 0;
+}
+.flex-container{
+    display:flex;
+}
+.jcc {
+    justify-content: center;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.nav-links {
+    color: #282830;
+    font-family:malaga;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding: 0 30px;
+}
+.main-font{
+    font-family: "altivo", sans-serif;
+}
+.header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.special-font {
+color: #282830;
+text-align: center;
+font-family: Malaga;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 50px;
+padding-bottom: 70px;
+}
+.paragraph {
+width: 545px;
+height: 224px;
+flex-shrink: 0;
+color:#282830;
+font-family: Altivo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 50px;
+padding-right: 50px;
+text-align: right;
+padding-top: 50px;
+}
+.divide {
+background-color: #282830;
+color: #ECEADF;
+text-align: center;
+font-family: Altivo;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 20px;
+}
+.daytime-psa {
+text-align: center;
+font-family: Malaga;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 30px;
+padding-bottom: 50px;
+}
+.headers {
+    text-align: center;
+    font-family: Malaga;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.full-width {
+    width: 100%;
+}
+.col-6 {
+    flex-basis: 50%;
+    padding: 0 6px;
+}
+.mega-font {
+flex-shrink: 0;
+color:#ECEADF;
+font-family: Altivo;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.owners {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 75px;
+    padding-top: 50px;
+}
+.info{
+color:#282830;
+text-align: center;
+font-family: Altivo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+.awards{
+flex-shrink: 0;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.footer{
+flex-shrink: 0;
+background: #282830;
+display: flex;
+max-width: 100%;
+background-size: cover;
+min-height: 15vh;
+}
+.footer-image{
+ width: 80px;
+height: 80px;
+flex-shrink: 0;
+padding-left: 10px;
+padding-top: 20px;
+}
+.footer-text{
+color: #FFF;
+font-family: Altivo;
+font-size: 16px;
+font-style: normal;
+font-weight: 350;
+line-height: normal;
+padding-left: 15px;
+padding-right:600px;
+}
+.header-image{
+    background-image: url(../images/headerimage.jpg);
+    background-size: cover;  
+    padding: 0 50px;
+    display:flex;
+}
+.mb{
+margin-bottom: 32px;
+}
+.btn{
+    text-decoration: none;
+    max-width: 300px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#92BBDE;
+    color:#282830;
+    text-align: center;
+    font-family: Altivo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+ .bottom-btn{
+    text-decoration: none;
+    max-width: 300px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#92BBDE;
+    color:#282830;
+    text-align: center;
+    font-family: Altivo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }   
+
+.socials{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.col-6{
+    flex-basis: 33.333%;
+    padding: 0 6px;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 500px){
+    .paragraph {
+        text-align: left;
+        font-size: 12px;
+    }
+    .divide {
+        font-size: 36px;
+    }
+    .mega-font {
+        font-size: 20px;
+    }
+    .footer-text {
+        padding-right: 20px;
+    }
+    .owners {
+        padding: 0 20px;
+    }
+    .awards {
+        padding: 0 10px;
+    }
+    .bottom-btn, .btn {
+        max-width: 200px;
+        font-size: 20px;
+    }   
+}
